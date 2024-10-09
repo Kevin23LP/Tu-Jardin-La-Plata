@@ -1,0 +1,52 @@
+.footerdiv{
+    width: 100%;
+    min-width: 320px;
+    max-width: 1920px;
+    
+    
+    margin-top: 40px;
+    
+}
+
+.socialf{
+    height: fit-content;
+    background-color: rgb(34, 32, 32);
+    text-align: center;
+    align-content: center;
+    font-family: "Poppins", sans-serif;
+    padding: 20px 10px;
+}
+.socialf h1{
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.socialf p{
+    color: aliceblue;
+}
+.empresadat{
+   
+    height: 50px;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.empresadat p{
+    color: white;
+    font-family: fantasy;
+}
+.empresadat a{
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.medialinks{
+    filter: brightness(0) saturate(100%) invert(33%) sepia(81%) saturate(2167%) hue-rotate(10deg) brightness(98%) contrast(97%);
+}
+
+
+@media (max-width: 425px) {
+
+    
+}

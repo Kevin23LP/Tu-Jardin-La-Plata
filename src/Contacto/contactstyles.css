@@ -1,0 +1,129 @@
+.login-container {
+    display: flex;
+    width: 90%;
+    max-width: 1000px;
+    height: max-content;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+    
+}   
+
+.login-form-section {
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+form {
+    width: 100%;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+textarea{
+    width: 420px;
+    max-width: 420px;
+    
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-height: 90px;
+    min-height: 50px;
+}
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right,  #6bd38a,green, #11b43a);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.login-btn:hover {
+    background: linear-gradient(to right, #27b050, #1b973a);
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: #999;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    color: #333;
+}
+
+.login-info-section {
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: linear-gradient(to right, #7de47d, #30b823);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.login-info-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.login-info-section p {
+    line-height: 1.6;
+}
+
+
+@media (max-width: 425px) {
+    .login-container{
+        flex-direction: column;
+    }
+    .login-form-section{
+        width: 100%;
+    }
+    .login-info-section{
+        width: 100%;
+    }
+    .mensajetxt{
+        width: 260px;
+        
+    }
+}
+@media (max-width:320px) {
+    .mensajetxt{
+        width: 180px;
+        max-width: 180px;
+    }
+}

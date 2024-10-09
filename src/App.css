@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#scrollToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff5722; /* Color del botón */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 18px;
+  z-index: 1000; /* Asegúrate de que esté sobre otros elementos */
+}
+
+#scrollToTop:hover {
+  background-color: #e64a19; /* Color al pasar el mouse */
+}

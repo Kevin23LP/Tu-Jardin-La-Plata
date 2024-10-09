@@ -1,0 +1,127 @@
+.herosection{
+    display: flex;
+    width: 100%;
+    max-width: 1920px;
+    min-width: 320px;
+    height: calc(100vh - 80px);
+    padding: 0px 50px;
+    background-image: linear-gradient(180deg, rgb(252, 252, 179), rgba(255, 255, 255, 0.479));
+}
+.half{
+    flex: 1;
+    min-width: 320px;
+}
+.half img{
+    width: 80%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 20px;
+    align-items: center;
+    border-radius: 100%;
+}
+.imgdivhero{
+    text-align: center;
+    z-index: 1;
+    align-content: center;
+}
+.half h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    display: inline-block;
+    margin-top: 80px;
+    color: rgb(255, 60, 60);
+}
+.half p{
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+
+}
+.half h1{
+    font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 40px;
+    color: rgb(114, 197, 114);
+}
+
+.herobutons{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+.herobtn1{
+    background-color: lightseagreen;
+    padding: 20px;
+    border-radius: 100px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Kanit", sans-serif;
+    transition: all ease-out 0.3s;
+}
+.herobtn1:hover{
+    background-color: rgb(34, 172, 34);
+}
+.herobtn2{
+    
+    padding: 20px;
+    border-radius: 100px;
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Kanit", sans-serif;
+    border: 2px green solid;
+    transition: all ease-out 0.3s;
+}
+.herobtn2:hover{
+    background-color: white;
+}
+.opset{
+    transition: all ease-out 2s;
+}
+
+
+
+
+@media (max-width: 425px) {
+    .herosection{
+        flex-direction: column;
+        height: fit-content;
+        padding:  0px 10px;
+    }
+    .half h2{
+        margin-top: 60px;
+    }
+    .herobutons{
+        padding: 30px 0px;
+        margin-left: 50px;
+    }
+    .txtherodiv{
+        padding: 0px 10px;
+        text-align: center;
+    }
+}
+@media (max-width:320px) {
+    .herobtn1{
+        display: none;
+    }   
+    .half img{
+        width: 300px;
+    }
+    .herosection{
+        padding: 0;
+    }
+}
+@media (max-width:1280px){
+    .txtherodiv{
+        align-content: center;
+    }
+    .imgdivhero img{
+        height: 70%;
+    }
+}
