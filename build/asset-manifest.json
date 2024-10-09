@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Tu-Jardin/build/static/css/main.c80d9c46.css",
+    "main.js": "/Tu-Jardin/build/static/js/main.5f22ede9.js",
+    "static/js/453.f1f6d023.chunk.js": "/Tu-Jardin/build/static/js/453.f1f6d023.chunk.js",
+    "static/media/jjujjuujjuuhuighuyguuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu.png": "/Tu-Jardin/build/static/media/jjujjuujjuuhuighuyguuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu.f4b6c8d451d39100ba3d.png",
+    "static/media/458919768___n.jpg": "/Tu-Jardin/build/static/media/458919768_1857031854785040_3852557599546310433_n.f7167ea73bf0d84d8e68.jpg",
+    "static/media/DALL·E 2024-10-01 16.10.01 - A set of beautiful plant pots displayed on a table, with a clean white background. The pots contain various attractive plants, including leafy greens .webp": "/Tu-Jardin/build/static/media/DALL·E 2024-10-01 16.10.01 - A set of beautiful plant pots displayed on a table, with a clean white background. The pots contain various attractive plants, including leafy greens .5758418956792493d364.webp",
+    "static/media/409742683_652893566919334__n.webp": "/Tu-Jardin/build/static/media/409742683_652893566919334_8433900218171501647_n.9649431b53969d822ef8.webp",
+    "static/media/459083360___n.jpg": "/Tu-Jardin/build/static/media/459083360_1299359958144207_7686728732304278001_n.8496257e9f6d7ff96bb3.jpg",
+    "static/media/DALL·E 2024-10-03 16.37.26 - A room that conveys the idea of general painting work in progress, with a paint roller and brush on a step ladder, paint cans on the floor, and a wall.webp": "/Tu-Jardin/build/static/media/DALL·E 2024-10-03 16.37.26 - A room that conveys the idea of general painting work in progress, with a paint roller and brush on a step ladder, paint cans on the floor, and a wall.d570f329d41b8d830945.webp",
+    "static/media/pdra.jpg": "/Tu-Jardin/build/static/media/pdra.a322b8c213b659e1106c.jpg",
+    "static/media/pdra2.jpg": "/Tu-Jardin/build/static/media/pdra2.f2cd037b163215f82807.jpg",
+    "static/media/titulologoparapagina.png": "/Tu-Jardin/build/static/media/titulologoparapagina.1e282e5c15882273a38e.png",
+    "static/media/estesiespoda.jpg": "/Tu-Jardin/build/static/media/estesiespoda.d24d2c427f1fe27e35e8.jpg",
+    "index.html": "/Tu-Jardin/build/index.html",
+    "main.c80d9c46.css.map": "/Tu-Jardin/build/static/css/main.c80d9c46.css.map",
+    "main.5f22ede9.js.map": "/Tu-Jardin/build/static/js/main.5f22ede9.js.map",
+    "453.f1f6d023.chunk.js.map": "/Tu-Jardin/build/static/js/453.f1f6d023.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c80d9c46.css",
+    "static/js/main.5f22ede9.js"
+  ]
+}
